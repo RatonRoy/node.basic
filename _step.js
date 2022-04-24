@@ -22,5 +22,15 @@ package.json file you must include this dependencis for better user experiences.
     "start": "node index.js",
     "start-dev" : "nodemon index.js",
   }
+  ------------------------
+   Create dynamic api, api parameter, access params
+   -------------------------------------------
+   1. To create new route like react route 
+   [
+    app.get('path name', call back function)
+	like as  app.get('/users', (req, res) => {
+	  res.send('I am coming from user route ');
+	})
+   ]
 
 *************** */
