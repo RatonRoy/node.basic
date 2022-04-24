@@ -15,4 +15,12 @@ Express or Node resources
 6. run node index.js 
 7. check your browser for that port 
 
+-----------------
+package.json file you must include this dependencis for better user experiences. 
+---------------------------
+ "scripts": {
+    "start": "node index.js",
+    "start-dev" : "nodemon index.js",
+  }
+
 *************** */
